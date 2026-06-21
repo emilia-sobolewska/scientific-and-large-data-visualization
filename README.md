@@ -2,6 +2,8 @@
 
 *Scientific and Large Data Visualization*
 
+You can find the project here: https://emilia-sobolewska.github.io/scientific-and-large-data-visualization/
+
 ## Overview
 
 The project is an interactive visualization of demographic change across
