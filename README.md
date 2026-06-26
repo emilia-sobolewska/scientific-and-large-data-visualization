@@ -126,17 +126,6 @@ of recognizable patterns:
 These patterns are difficult to identify from absolute population figures, which
 is the reason the application works with rates.
 
-## Scalability considerations
-
-The dataset is modest in size (on the order of a few thousand observations), but
-the project illustrates where common visualization techniques scale and where
-they do not. For roughly 40 countries, D3 with SVG is sufficient: each country
-is a single path, and per-element interactivity is straightforward. At regional
-resolution (NUTS-2 or NUTS-3), the geometry grows to thousands of polygons. SVG
-creates one DOM node per element and becomes inefficient at that scale, at which
-point Canvas or WebGL is the appropriate choice, with manual hit-testing for
-interaction.
-
 ## Technology stack
 
 | Layer | Technology |
